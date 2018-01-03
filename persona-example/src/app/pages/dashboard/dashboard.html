@@ -1,0 +1,33 @@
+<table class="table table-hover">
+  <thead>
+    <tr class="black-muted-bg">
+      <th class="table-id">N°</th>
+      <th>Nombres</th>
+      <th>Apellido Paterno</th>
+      <th>Apellido Materno</th>
+    </tr>
+  </thead>
+  <tbody>
+    <ng-container *ngIf="personList != null">
+      <tr *ngFor="let item of personList; let i=index">
+        <td class="table-id center">{{ i+1 }}</td>
+        <td>{{ item.nombres }}</td>
+        <td>{{ item.apellidoPaterno }}</td>
+        <td>
+          <button type="button"  class="btn btn-info btn-icon btn-xm">
+            <i class="ion-search"></i>
+          </button>
+          <button  type="button"  class="btn btn-success btn-icon btn-xm">
+            <i class="ion-edit"></i>
+          </button>
+          <button  type="button"  class="btn btn-danger btn-icon btn-xm">
+            <i class="ion-trash-a"></i>
+          </button>
+        </td>
+      </tr>
+    </ng-container>
+  </tbody>
+</table>
+<ng-container *ngIf="personList.length == 0">
+  <label class="row col-md-12 text-center" >No se encontraron personas</label>
+</ng-container>

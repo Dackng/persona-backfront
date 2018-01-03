@@ -1,0 +1,222 @@
+{
+  "general": {
+    "home": "Home",
+    "messages": {
+      "required": "Requerido*",
+      "no_symptoms":"No hay síntomas",
+      "no_emrs":"No hay registros médicos",
+      "health_plan":"Plan de salud",
+      "no_medical_test":"No hay exámenes médicos",
+      "is_patient_no_registered": "Paciente no registrado con el plan de salud, debe ir a Admisión",
+      "is_phr_no_registered": "Historia Clínica no registrada"
+    },
+    "subtitles":{
+      "options": "OPCIONES",
+      "create_date": "FECHA DE INICIO",
+      "end_date": "FECHA DE TÉRMINO"
+    },
+    "buttons": {
+      "register": "Registrar",
+      "cancel": "Cancelar",
+      "next": "Siguiente",
+      "before": "Anterior",
+      "save_changes": "Guardar cambios",
+      "show_patient_detail": "Ver Detalle de Paciente"
+    },
+    "menu": {
+      "dashboard": "Dashboard",
+      "admission": "Admisión",
+      "medical_test": "Examen Médico",
+      "medical_record":"Historia Clínica",
+      "health_record":"Registro de Salud"
+    }
+  },
+  "register_patient": {
+      "option": "Registrar Paciente",
+      "title": "REGISTRAR PACIENTE",
+      "patient": "Paciente"
+  },
+  "patient": {
+      "code": "Código",
+      "names": "Nombres",
+      "paternalSurname": "Apellido Paterno",
+      "maternalSurname": "Apellido Materno",
+      "civilState": "Estado Civil",
+      "email": "Email",
+      "emrState": "Estado de Examen Médico",
+      "eap": "EAP",
+      "birthDate": "Fecha de Nacimiento",
+      "age": "Edad",
+      "telephone": "Teléfono",
+      "gender": {
+        "name": "Género",
+        "male": "Masculino",
+        "female": "Femenino"
+      },
+      "ubigeo":{
+        "name": "UBIGEO",
+        "department": "Departamento",
+        "province": "Provincia",
+        "district": "Distrito"
+      },
+      "address": "Dirección",
+      "type": {
+        "name": "Tipo de Paciente",
+        "student": "Estudiante",
+        "external": "Externo"
+      }
+  },
+  "general_medicine_test": {
+      "option": "Medicina General",
+      "weight": "Peso (Kg)",
+      "stature": "Talla (M)",
+      "pulse": "Pulso",
+      "lmp": "FUM",
+      "blood_presure":{
+        "name":"PRESIÓN ARTERIAL",
+        "systolic": "Sistólica (Mm/Hg)",
+        "diastolic": "Diastólica (Mm/Hg)"
+      },
+      "visual_acuity": {
+        "name": "AGUDEZA VISUAL",
+        "right_eye": "Ojo derecho",
+        "left_eye": "Ojo izquierdo"
+      },
+      "symptom_table":{
+        "num": "N°",
+        "symptoms": "SINTOMAS",
+        "appointment": "FECHA DE CONSULTA"
+      },
+      "symptom":{
+        "subtitle": "SINTOMA",
+        "symptom_type": "Tipo de sintoma",
+        "cie_10": "CIE 10",
+        "appointment": "Fecha de cita",
+        "observation": "Observación"
+      }
+  },
+  "laboratory_test":{
+      "option": "Laboratorio",
+      "subtitle": "REGISTRO DE LABORATORIO",
+      "serological_test": "Examen serológico",
+      "hemoglobin": "Hemoglobina (g/L)",
+      "hemoglobin_state":"Estado de hemoglobina",
+      "blood_type": "Grupo sanguíneo",      
+      "observation": "Observación"
+  },
+  "radiology_test":{
+      "option": "Radiología",
+      "subtitle": "REGISTRO DE RADIOLOGÍA",
+      "radiology_type": "Examen radiológico",
+      "observation": "Observación"
+  },
+  "psychological_test":{
+      "option": "Psicología",
+      "subtitle": "REGISTRO DE PSICOLOGÍA",
+      "depression_result": "Resultado de depresión",
+      "depression_state":"Estado de depresión",
+      "anxiety_result": "Resultado de ansiedad",
+      "anxiety_state":"Estado de ansiedad",
+      "diagnosis":"Diagnóstico",
+      "observation": "Observación"
+  },
+  "health_record": {
+      "medical_tests": "EXAMENES MÉDICOS",
+      "test_table":{
+        "health_plan":"PLAN DE SALUD",
+        "state":"ESTADO",
+        "start_date":"FECHA DE INICIO",
+        "finish_date": "FECHA DE TERMINO",
+        "download_doc": "DESCARGAR"
+      },
+      "emr":{
+        "subtitle":"CERTIFICADO DE CHEQUEO MÉDICO",
+        "certificate_number":"Número de certificado",
+        "patient": "Paciente",
+        "eap": "EAP",
+        "results": "RESULTADOS",
+        "laboratory_results": "RESULTADOS DE LABORATORIO",
+        "radiology_results": "RESULTADOS DE RADIOLOGÍA",
+        "psychological_test": "Psicología",
+        "serological_test":"Serológico",
+        "radiology_test": "Radiología",
+        "blood_type": "Grupo sanguíneo"
+      }
+  },
+  "medical_test": {
+      
+      "signup_link": "New to ng2-admin? Sign up!",
+      "email": "Email",
+      "password": "Password",
+      "sign_in": "Sign in",
+      "forgot_password": "Forgot password?",
+      "sign_from_app_text": "or Sign in with one click",
+      "share_on_facebook": "Share on Facebook",
+      "share_on_twitter": "Share on Twitter",
+      "share_on_google_plus": "Share on Google Plus"
+  },
+  "login": {
+      "title": "Sign in to ng2-admin",
+      "signup_link": "New to ng2-admin? Sign up!",
+      "email": "Email",
+      "password": "Password",
+      "sign_in": "Sign in",
+      "forgot_password": "Forgot password?",
+      "sign_from_app_text": "or Sign in with one click",
+      "share_on_facebook": "Share on Facebook",
+      "share_on_twitter": "Share on Twitter",
+      "share_on_google_plus": "Share on Google Plus"
+    },
+  
+  "dashboard": {
+    "acquisition_channels": "Acquisition Channels",
+    "users_by_country": "Users by Country",
+    "revenue": "Revenue",
+    "feed": "Feed",
+    "todo_list": "To Do List",
+    "calendar": "Calendar",
+    "new_visits": "New Visits",
+    "purchases": "Purchases",
+    "active_users": "Active Users",
+    "returned": "Returned",
+    "popular_app": {
+      "super_app": "Super App",
+      "most_popular_app": "Most Popular App",
+      "total_visits": "Total Visits",
+      "new_visits": "New Visits",
+      "sales": "Sales"
+    },
+    "todo": {
+      "task_todo": "Task to do.."
+    },
+    "traffic_chart": {
+      "view_total": "Views Total"
+    }
+  },
+  "tree_view": {
+    "title": "basic",
+    "programming": "Programming languages by programming paradigm",
+    "oop": "Object-oriented programming",
+    "java": "Java",
+    "c_plus_plus": "C++",
+    "c_sharp": "C#",
+    "prototype": "Prototype-based programming",
+    "java_script": "JavaScript",
+    "coffee_script": "CoffeeScript",
+    "lua": "Lua"
+  },
+  "chart": {
+    "lines": "Lines",
+    "bars": "Bars",
+    "simple_line_chart": "Simple line chart",
+    "line_chart": "Line chart with area",
+    "bi_polar_line_chart": "Bi-polar line chart with area only",
+    "simple_bar_chart": "Simple bar chart",
+    "multi_line_labels_bar_chart": "Multi-line labels bar chart",
+    "stacked_bar_chart": "Stacked bar chart",
+    "pies_and_donuts": "Pies & Donuts",
+    "simple_pie": "Simple Pie",
+    "pie_with_labels": "Pie with labels",
+    "donut": "Donut"
+  }
+}

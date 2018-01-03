@@ -1,0 +1,40 @@
+spring:
+  profiles:
+    active: development
+server:
+  port: 8011
+---
+spring:
+  profiles: development
+  datasource:
+    driver-class-name: org.postgresql.Driver
+    url: jdbc:postgresql://localhost:5432/patientdb
+    username: postgres
+    password: postgres
+  jpa:
+    properties:
+      hibernate:
+        default_schema: public
+        dialect: org.hibernate.dialect.PostgreSQLDialect
+    show-sql: true
+    hibernate:
+      ddl-auto: none
+            
+---
+spring:
+  profiles: test
+  application:
+    name: cfe-plazo-service
+  datasource:
+    driver-class-name: org.postgresql.Driver
+    url: jdbc:postgresql://localhost:5432/patientdb
+    username: postgres
+    password: postgres
+  jpa:
+    properties:
+      hibernate:
+        #default_schema: EJEMPLO_ESQUEMA
+        dialect: org.hibernate.dialect.PostgreSQLDialect
+    show-sql: true
+    hibernate:
+      ddl-auto: none
